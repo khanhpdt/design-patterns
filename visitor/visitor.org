@@ -1,4 +1,4 @@
-* VISITOR
+* Visitor
 
 ** Intent
 - Defines new operations for a class hierarchy /without/ modifying the hierarchy.
@@ -12,6 +12,11 @@
 ** Example
 
 - See /src for the source code
+
+** Applicability
+
+This pattern should be used when
+- The class hierarchy rarely changes, while its operations usually does. This is because adding new operations is quite simple as we only need to add new visitors. On the other hand, adding new class into the hierarchy will make us to add new visit() method to the Visitor interface, which means we have to change all the exisiting visitors.
 
 ** Risk
 
