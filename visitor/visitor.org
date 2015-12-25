@@ -9,13 +9,13 @@
 - In the diagram, the accept(Visitor v) method just simply calls v.visit(this), which will implement the necessary operation on the given Component. This is the /double dispatch/ technique, in which the result of the call depends on the request and the types of /two/ receivers. 
 - New operations for the Component class hierarchy can be created by adding new Visitors, which means that we don't need to modify the Component class hierarchy to define its new operations.
 
-** Example
+** Sample code
 
-- See /src for the source code
+- See /src.
 
 ** Applicability
 
-This pattern should be used when
+This pattern should be used when:
 - The class hierarchy rarely changes, while its operations usually does. This is because adding new operations is quite simple as we only need to add new visitors. On the other hand, adding new class into the hierarchy will make us to add new visit() method to the Visitor interface, which means we have to change all the exisiting visitors.
 
 ** Risk
