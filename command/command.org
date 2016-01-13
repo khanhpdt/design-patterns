@@ -10,10 +10,6 @@
 - All information needed to carry out the request is encapsulated in the Command object. In other words, the Command objects contain the input data for the request and know how to handle the request.
 - The Command objects might handle the requests themselves or delegate the tasks to appropriate Receivers.
 
-** Sample code
-
-- See /src
-
 ** Applicability
 
 This pattern can be used when:
