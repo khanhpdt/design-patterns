@@ -6,7 +6,7 @@
 
 ** Structure
   
-   file:strategy_struture.png
+   [[file:strategy_struture.png]]
 
 - Each strategy is encapsulated in each own class.
 - The clients are insulated from the strategy details, and only need to know which strategy it should use.
