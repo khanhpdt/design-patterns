@@ -7,8 +7,8 @@
    [[file:decorator_structure.png]]
 
 - The Decorator can also be an interface or abstract class.
-- The Decorator extends its decorated Component to make it transparent to the clients of the Component.
-- The Decorator has its decorated Component object so that it can attach additional responsibilities to the object. 
+- The Decorator conforms to the interface of its decorated Component to make it transparent to the clients of the Component.
+- The Decorator keeps a reference to its decorated Component, so that it can attach additional responsibilities to the object at run-time.
 - The Decorator does not alter the behaviors of its decorated object, but instead it attaches other behaviors to the object. In other words, the Decorator changes the /skin/ of an object, not its /guts/.
 
 ** Applicability
