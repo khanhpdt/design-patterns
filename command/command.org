@@ -21,4 +21,4 @@ This pattern can be used when:
 ** Reference
 
 - Command, GOF book
-- Comman, Chaper 24, Design Patterns In Java
+- Command, Chaper 24, Design Patterns In Java
