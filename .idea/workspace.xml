@@ -1,29 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6bcd77b8-2763-48e7-8d42-b3633b64b6ac" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/state/state.iml" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/state/src/main/java/org/khanhpdt/patterns/state/FinishedGameState.java" afterPath="$PROJECT_DIR$/src/main/java/org/khanhpdt/designpatterns/state/FinishedGameState.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/state/src/main/java/org/khanhpdt/patterns/state/Game.java" afterPath="$PROJECT_DIR$/src/main/java/org/khanhpdt/designpatterns/state/Game.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/state/src/main/java/org/khanhpdt/patterns/state/GameState.java" afterPath="$PROJECT_DIR$/src/main/java/org/khanhpdt/designpatterns/state/GameState.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/state/src/main/java/org/khanhpdt/patterns/state/Gamer.java" afterPath="$PROJECT_DIR$/src/main/java/org/khanhpdt/designpatterns/state/Gamer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/state/src/main/java/org/khanhpdt/patterns/state/NewGameState.java" afterPath="$PROJECT_DIR$/src/main/java/org/khanhpdt/designpatterns/state/NewGameState.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/state/src/main/java/org/khanhpdt/patterns/state/OngoingGameState.java" afterPath="$PROJECT_DIR$/src/main/java/org/khanhpdt/designpatterns/state/OngoingGameState.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/state/src/main/java/org/khanhpdt/patterns/state/PausedGameState.java" afterPath="$PROJECT_DIR$/src/main/java/org/khanhpdt/designpatterns/state/PausedGameState.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/visitor/src/main/java/org/khanhpdt/patterns/visitor/BigDecimalOperand.java" afterPath="$PROJECT_DIR$/src/main/java/org/khanhpdt/designpatterns/visitor/BigDecimalOperand.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/visitor/src/main/java/org/khanhpdt/patterns/visitor/Client.java" afterPath="$PROJECT_DIR$/src/main/java/org/khanhpdt/designpatterns/visitor/Client.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/visitor/src/main/java/org/khanhpdt/patterns/visitor/DoubleOperationVisitor.java" afterPath="$PROJECT_DIR$/src/main/java/org/khanhpdt/designpatterns/visitor/DoubleOperationVisitor.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/visitor/src/main/java/org/khanhpdt/patterns/visitor/IntegerOperand.java" afterPath="$PROJECT_DIR$/src/main/java/org/khanhpdt/designpatterns/visitor/IntegerOperand.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/visitor/src/main/java/org/khanhpdt/patterns/visitor/Operand.java" afterPath="$PROJECT_DIR$/src/main/java/org/khanhpdt/designpatterns/visitor/Operand.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/visitor/src/main/java/org/khanhpdt/patterns/visitor/OperationVisitor.java" afterPath="$PROJECT_DIR$/src/main/java/org/khanhpdt/designpatterns/visitor/OperationVisitor.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/visitor/src/main/java/org/khanhpdt/patterns/visitor/QuadrupleOperationVisitor.java" afterPath="$PROJECT_DIR$/src/main/java/org/khanhpdt/designpatterns/visitor/QuadrupleOperationVisitor.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/visitor/src/main/java/org/khanhpdt/patterns/visitor/TripleOperationVisitor.java" afterPath="$PROJECT_DIR$/src/main/java/org/khanhpdt/designpatterns/visitor/TripleOperationVisitor.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/visitor/visitor.iml" afterPath="$PROJECT_DIR$/design-patterns.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="6bcd77b8-2763-48e7-8d42-b3633b64b6ac" name="Default" comment="" />
     <ignored path="design-patterns.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -628,12 +606,12 @@
       <created>1457028115901</created>
       <option name="number" value="Default" />
       <updated>1457028115901</updated>
-      <workItem from="1457028117051" duration="360000" />
+      <workItem from="1457028117051" duration="400000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="360000" />
+    <option name="totallyTimeSpent" value="400000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
