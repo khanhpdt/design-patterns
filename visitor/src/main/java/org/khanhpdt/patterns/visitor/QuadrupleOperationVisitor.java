@@ -1,3 +1,5 @@
+package org.khanhpdt.patterns.visitor;
+
 import java.math.BigDecimal;
 
 public class QuadrupleOperationVisitor implements OperationVisitor {

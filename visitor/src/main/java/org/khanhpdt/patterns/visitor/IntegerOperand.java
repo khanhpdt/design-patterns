@@ -1,3 +1,5 @@
+package org.khanhpdt.patterns.visitor;
+
 public class IntegerOperand implements Operand {
     @Override
     public void accept(OperationVisitor v) {
