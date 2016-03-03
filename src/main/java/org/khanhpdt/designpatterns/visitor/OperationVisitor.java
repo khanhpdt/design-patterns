@@ -1,4 +1,4 @@
-package org.khanhpdt.patterns.visitor;
+package org.khanhpdt.designpatterns.visitor;
 
 public interface OperationVisitor {
     void visit(BigDecimalOperand c);

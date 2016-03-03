@@ -1,4 +1,4 @@
-package org.khanhpdt.patterns.state;
+package org.khanhpdt.designpatterns.state;
 
 /**
  * @author khanhpdt

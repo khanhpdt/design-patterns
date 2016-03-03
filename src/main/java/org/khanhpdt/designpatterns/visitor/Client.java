@@ -1,4 +1,4 @@
-package org.khanhpdt.patterns.visitor;
+package org.khanhpdt.designpatterns.visitor;
 
 public class Client {
 
