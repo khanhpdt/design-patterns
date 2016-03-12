@@ -3,7 +3,7 @@ package org.khanhpdt.designpatterns.state;
 /**
  * @author khanhpdt
  */
-public class Gamer {
+public class GameClient {
 
     public static void main(String[] args) {
         Game game = new Game();
