@@ -2,31 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6bcd77b8-2763-48e7-8d42-b3633b64b6ac" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/design-patterns/org/khanhpdt/designpatterns/abstractfactory/CarEngine.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/design-patterns/org/khanhpdt/designpatterns/abstractfactory/CarFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/design-patterns/org/khanhpdt/designpatterns/abstractfactory/CarWheel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/design-patterns/org/khanhpdt/designpatterns/abstractfactory/Client.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/design-patterns/org/khanhpdt/designpatterns/abstractfactory/EconomyCarEngine.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/design-patterns/org/khanhpdt/designpatterns/abstractfactory/EconomyCarFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/design-patterns/org/khanhpdt/designpatterns/abstractfactory/EconomyCarWheel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/design-patterns/org/khanhpdt/designpatterns/abstractfactory/LuxuryCarEngine.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/design-patterns/org/khanhpdt/designpatterns/abstractfactory/LuxuryCarFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/design-patterns/org/khanhpdt/designpatterns/abstractfactory/LuxuryCarWheel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/design-patterns/org/khanhpdt/designpatterns/state/FinishedGameState.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/design-patterns/org/khanhpdt/designpatterns/state/Game.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/design-patterns/org/khanhpdt/designpatterns/state/GameClient.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/design-patterns/org/khanhpdt/designpatterns/state/GameState.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/design-patterns/org/khanhpdt/designpatterns/state/NewGameState.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/design-patterns/org/khanhpdt/designpatterns/state/OngoingGameState.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/design-patterns/org/khanhpdt/designpatterns/state/PausedGameState.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/design-patterns/org/khanhpdt/designpatterns/visitor/BigDecimalOperand.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/design-patterns/org/khanhpdt/designpatterns/visitor/Client.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/design-patterns/org/khanhpdt/designpatterns/visitor/DoubleOperationVisitor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/design-patterns/org/khanhpdt/designpatterns/visitor/IntegerOperand.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/design-patterns/org/khanhpdt/designpatterns/visitor/Operand.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/design-patterns/org/khanhpdt/designpatterns/visitor/OperationVisitor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/design-patterns/org/khanhpdt/designpatterns/visitor/QuadrupleOperationVisitor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/design-patterns/org/khanhpdt/designpatterns/visitor/TripleOperationVisitor.class" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/khanhpdt/designpatterns/factorymethod/Card.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/khanhpdt/designpatterns/factorymethod/CardManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/khanhpdt/designpatterns/factorymethod/CreditCard.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/khanhpdt/designpatterns/factorymethod/CreditCardManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/khanhpdt/designpatterns/factorymethod/DebitCard.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/khanhpdt/designpatterns/factorymethod/DebitCardManager.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="design-patterns.iws" />
@@ -84,6 +65,12 @@
         <option value="$PROJECT_DIR$/src/main/java/org/khanhpdt/designpatterns/abstractfactory/LuxuryCarWheel.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/khanhpdt/designpatterns/abstractfactory/Client.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/khanhpdt/designpatterns/abstractfactory/EconomyCarFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/khanhpdt/designpatterns/factorymethod/CreditCardManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/khanhpdt/designpatterns/factorymethod/DebitCardManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/khanhpdt/designpatterns/factorymethod/Card.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/khanhpdt/designpatterns/factorymethod/CardManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/khanhpdt/designpatterns/factorymethod/CreditCard.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/khanhpdt/designpatterns/factorymethod/DebitCard.java" />
       </list>
     </option>
   </component>
@@ -130,6 +117,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -148,11 +137,35 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design-patterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design-patterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="designpatterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -166,12 +179,13 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="org.khanhpdt.designpatterns.abstractfactory" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Projects\design-patterns\src\main\java\org\khanhpdt\designpatterns\visitor" />
       <recent name="C:\Projects\design-patterns\src\main\java\org\khanhpdt\designpatterns\state" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.khanhpdt.designpatterns.factorymethod" />
+      <recent name="org.khanhpdt.designpatterns.abstractfactory" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Client">
@@ -658,12 +672,13 @@
       <workItem from="1457624942633" duration="718000" />
       <workItem from="1457748546727" duration="1100000" />
       <workItem from="1457773651652" duration="2077000" />
-      <workItem from="1457775841698" duration="19000" />
+      <workItem from="1457775841698" duration="70000" />
+      <workItem from="1457857224575" duration="1648000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6424000" />
+    <option name="totallyTimeSpent" value="8123000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -718,7 +733,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -726,7 +740,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -846,10 +859,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.094339624">
           <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-          <folding>
-            <element signature="e#235#236#0" expanded="false" />
-            <element signature="e#268#269#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -857,7 +866,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -865,7 +873,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -873,10 +880,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
-          <folding>
-            <element signature="e#165#166#0" expanded="true" />
-            <element signature="e#230#231#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -884,10 +887,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="54" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
-          <folding>
-            <element signature="e#162#163#0" expanded="true" />
-            <element signature="e#226#227#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -895,10 +894,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
-          <folding>
-            <element signature="e#160#161#0" expanded="true" />
-            <element signature="e#223#224#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -906,14 +901,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.28708133">
           <caret line="8" column="61" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
-          <folding>
-            <element signature="e#169#170#0" expanded="true" />
-            <element signature="e#243#244#0" expanded="true" />
-            <element signature="e#296#297#0" expanded="true" />
-            <element signature="e#341#342#0" expanded="true" />
-            <element signature="e#392#393#0" expanded="true" />
-            <element signature="e#436#437#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -921,7 +908,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.25119618">
           <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -929,10 +915,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.64593303">
           <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="e#167#168#0" expanded="true" />
-            <element signature="e#236#237#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -940,10 +922,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.25119618">
           <caret line="7" column="54" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
-          <folding>
-            <element signature="e#163#164#0" expanded="true" />
-            <element signature="e#227#228#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -951,7 +929,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.17942584">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -959,6 +936,65 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.17942584">
           <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/khanhpdt/designpatterns/factorymethod/CardManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/khanhpdt/designpatterns/factorymethod/CreditCardManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <folding>
+            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/khanhpdt/designpatterns/factorymethod/DebitCardManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18867925">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+          <folding>
+            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/khanhpdt/designpatterns/factorymethod/DebitCard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11792453">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+          <folding>
+            <element signature="e#144#145#0" expanded="true" />
+            <element signature="e#203#204#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/khanhpdt/designpatterns/factorymethod/CreditCard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11792453">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+          <folding>
+            <element signature="e#146#147#0" expanded="true" />
+            <element signature="e#206#207#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/khanhpdt/designpatterns/factorymethod/Card.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11792453">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
           <folding />
         </state>
       </provider>
