@@ -3,9 +3,9 @@ package vn.khanhpdt.playgrounds.designpatterns.abstractfactory;
 /**
  * @author khanhpdt
  */
-public class EconomyCarFactory implements CarFactory {
+class EconomyCarFactory implements CarFactory {
 
-    public EconomyCarFactory() {
+    EconomyCarFactory() {
         System.out.println("Enter the factory for economy car...");
     }
 

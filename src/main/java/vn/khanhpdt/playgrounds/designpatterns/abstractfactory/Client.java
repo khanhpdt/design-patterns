@@ -4,6 +4,7 @@ package vn.khanhpdt.playgrounds.designpatterns.abstractfactory;
  * @author khanhpdt
  */
 public class Client {
+
     public static void main(String[] args) {
         CarFactory economyCarFactory = new EconomyCarFactory();
         economyCarFactory.createEngine();
@@ -15,4 +16,5 @@ public class Client {
         luxuryCarFactory.createEngine();
         luxuryCarFactory.createWheel();
     }
+
 }

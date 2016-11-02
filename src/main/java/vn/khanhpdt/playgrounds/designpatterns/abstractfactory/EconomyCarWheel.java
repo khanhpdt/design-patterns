@@ -3,8 +3,10 @@ package vn.khanhpdt.playgrounds.designpatterns.abstractfactory;
 /**
  * @author khanhpdt
  */
-public class EconomyCarWheel implements CarWheel {
-    public EconomyCarWheel() {
+class EconomyCarWheel implements CarWheel {
+
+    EconomyCarWheel() {
         System.out.println("Economy car wheel created.");
     }
+
 }

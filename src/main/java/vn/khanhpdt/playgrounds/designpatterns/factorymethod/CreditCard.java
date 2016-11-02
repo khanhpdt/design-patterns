@@ -3,8 +3,10 @@ package vn.khanhpdt.playgrounds.designpatterns.factorymethod;
 /**
  * @author khanhpdt
  */
-public class CreditCard implements Card {
-    public CreditCard() {
+class CreditCard implements Card {
+
+    CreditCard() {
         System.out.println("A credit card created.");
     }
+
 }

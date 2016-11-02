@@ -3,9 +3,9 @@ package vn.khanhpdt.playgrounds.designpatterns.abstractfactory;
 /**
  * @author khanhpdt
  */
-public class LuxuryCarFactory implements CarFactory {
+class LuxuryCarFactory implements CarFactory {
 
-    public LuxuryCarFactory() {
+    LuxuryCarFactory() {
         System.out.println("Enter factory for luxury car...");
     }
 

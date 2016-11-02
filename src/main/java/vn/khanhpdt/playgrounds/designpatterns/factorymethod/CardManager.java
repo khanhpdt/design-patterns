@@ -3,6 +3,12 @@ package vn.khanhpdt.playgrounds.designpatterns.factorymethod;
 /**
  * @author khanhpdt
  */
-public abstract class CardManager {
-    protected abstract Card createCard();
+interface CardManager {
+
+	/**
+	 * This is the so called factory method.
+	 * <p>How a card is created depends on the implementations of this interface.</p>
+	 */
+    Card createCard();
+
 }
