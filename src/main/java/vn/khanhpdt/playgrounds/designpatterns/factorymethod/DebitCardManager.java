@@ -3,10 +3,10 @@ package vn.khanhpdt.playgrounds.designpatterns.factorymethod;
 /**
  * @author khanhpdt
  */
-class DebitCardManager extends CardManager {
+class DebitCardManager implements CardManager {
 
     @Override
-    protected Card createCard() {
+    public Card createCard() {
         return new DebitCard();
     }
 
