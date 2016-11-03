@@ -1,33 +1,33 @@
 package vn.khanhpdt.playgrounds.designpatterns.state;
 
-public class Game {
+class Game {
 
     private GameState state;
 
-    public Game() {
+    Game() {
         System.out.println("A new game has been created.");
-        state = new NewGameState();
+        state = new New();
     }
 
     void start() {
         state.start(this);
     }
 
-    public void changeState(GameState newState) {
+    void changeState(GameState newState) {
         System.out.println("Game changes from " + state.getClass().getSimpleName()
                 + " to " + newState.getClass().getSimpleName() + ".");
         this.state = newState;
     }
 
-    public void pause() {
+    void pause() {
         state.pause(this);
     }
 
-    public void resume() {
+    void resume() {
         state.resume(this);
     }
 
-    public void finish() {
+    void finish() {
         state.finish(this);
     }
 }

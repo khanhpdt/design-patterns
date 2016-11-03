@@ -1,9 +1,11 @@
 package vn.khanhpdt.playgrounds.designpatterns.state;
 
 /**
+ * The state object.
+ *
  * @author khanhpdt
  */
-public abstract class GameState {
+abstract class GameState {
 
     void start(Game game) {
         defaultStateChange();
