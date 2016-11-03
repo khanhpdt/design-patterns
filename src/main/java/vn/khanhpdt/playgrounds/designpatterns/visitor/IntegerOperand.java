@@ -1,12 +1,14 @@
 package vn.khanhpdt.playgrounds.designpatterns.visitor;
 
-public class IntegerOperand implements Operand {
-    @Override
-    public void accept(OperationVisitor v) {
-        v.visit(this);
-    }
+class IntegerOperand implements Operand {
 
-    public int intValue() {
-        return 10;
-    }
+	@Override
+	public void accept(OperationVisitor v) {
+		v.visit(this);
+	}
+
+	int intValue() {
+		return 10;
+	}
+
 }
